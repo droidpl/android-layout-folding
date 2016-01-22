@@ -39,6 +39,18 @@ apply plugin: "lfolding"
 
 This will enable the behaviour automatically.
 
+# How to add folders
+Under your original layout folder, if you want to add some nested folders keep in mind you have 
+to add a new layout folder inside of it. It also supports any other resource and all of them
+will be merged during the build process.
+
+Example for an activity folder:
+```
+src/main/layout/
+    activities/layout
+        myActivity.xml
+```
+
 # License
 ```
 The MIT License (MIT)
